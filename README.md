@@ -79,17 +79,34 @@ A learner *trending upward* is **not** the same as a learner who is *masterful*.
 
 ---
 
-## 🐳 Docker Quick Start
+## 🐳 Execution Guide
 
-```bash
-# Build
-docker build -t mastery-engine .
+The Mastery Decision Engine can be run natively using Python or via a containerized Docker environment. It has **zero external dependencies**.
 
-# Run
-docker run --rm mastery-engine
-```
+### Option 1: Native Python (Recommended for Dev)
+Requirements: Python 3.10+
 
-**Requirements:** Docker installed. No Python needed on the host.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TeamMavericKX/Mastery-Decision-Engine.git
+   cd Mastery-Decision-Engine
+   ```
+2. Execute the engine directly:
+   ```bash
+   python tools/mastery_engine.py
+   ```
+
+### Option 2: Docker (Recommended for Prod)
+Requirements: Docker installed
+
+1. Build the lightweight image:
+   ```bash
+   docker build -t mastery-engine .
+   ```
+2. Run the deterministic simulation container:
+   ```bash
+   docker run --rm mastery-engine
+   ```
 
 ---
 
