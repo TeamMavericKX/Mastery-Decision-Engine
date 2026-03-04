@@ -23,7 +23,7 @@
  ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
 ```
 
-> **A deterministic mastery gating system that decides whether a learner should PROGRESS, RETRY, or PIVOT — based on weighted score history. No APIs. No randomness. No mercy for mediocrity.**
+> **A deterministic mastery gating system that decides whether a learner should PROGRESS, RETRY, or PIVOT — based on weighted score history. No APIs. No randomness. No mercy for mediocrity**
 
 ---
 
